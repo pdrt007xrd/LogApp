@@ -1,0 +1,79 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/mrmanhatan/Escritorio/Projecto Oficina/Projecto Oficina.csproj": {}
+  },
+  "projects": {
+    "/home/mrmanhatan/Escritorio/Projecto Oficina/Projecto Oficina.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/mrmanhatan/Escritorio/Projecto Oficina/Projecto Oficina.csproj",
+        "projectName": "Projecto Oficina",
+        "projectPath": "/home/mrmanhatan/Escritorio/Projecto Oficina/Projecto Oficina.csproj",
+        "packagesPath": "/home/mrmanhatan/.nuget/packages/",
+        "outputPath": "/home/mrmanhatan/Escritorio/Projecto Oficina/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/mrmanhatan/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "microsoft.entityframeworkcore.design": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "microsoft.entityframeworkcore.sqlserver": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "microsoft.entityframeworkcore.tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/6.0.121/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
